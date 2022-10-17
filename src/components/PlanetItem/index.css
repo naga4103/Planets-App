@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: aqua;
+  padding: 20px;
+}
+.planet {
+  width: 300px;
+}
+.planet-heading {
+  color: white;
+  font-family: 'Roboto';
+}
+.planet-para {
+  color: white;
+  font-family: 'Roboto';
+  text-align: center;
+}
+@media screen and (max-width: 570px) {
+  .planet {
+    width: 70%;
+  }
+  .planet-heading {
+    font-size: 20px;
+  }
+  .planet-para {
+    font-size: 16px;
+  }
+}
